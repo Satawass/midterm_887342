@@ -145,4 +145,17 @@ puts q_5_us_state
 
 puts "Quiz6"
 
+US_NT_sort = US_states.sort {|item1, item2| item2 <=> item1}
 
+puts US_NT_sort
+
+puts "Quiz7"
+
+US_hash = abbr_states.to_h
+
+puts US_hash
+
+puts "Quiz8"
+
+
+    

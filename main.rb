@@ -136,11 +136,13 @@ puts "Quiz5"
 q_5_us_state = []
 
 US_states.each { |item|
-    if ["M","N","S"].include?(item[1]) && ["a","e","i","o","u"].include?(item[-1])
+    if ["M","N","S"].include?(item[0]) && ["a","e","i","o","u"].include?(item[-1])
         q_5_us_state.push(item)
     end
 }
 
 puts q_5_us_state 
+
+puts "Quiz6"
 
 
